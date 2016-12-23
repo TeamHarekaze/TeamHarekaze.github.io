@@ -37,7 +37,7 @@
         <div class="col-sm-4">
           <h3><a href="#about">About Harekaze</a></h3>
         </div><!--/col-md-4-->
-        
+
       </div><!--/row-->
     </div><!--/container-->
   </div><!--H-->
@@ -47,8 +47,8 @@
       <a name="about"></a>
       <h2 class="centered mb">We created this team for spreading the Hai-furi<br>that makes us more happy.</h2>
       <div class="col-md-6">
-        <p>Our activities is very flexible. <br>For instance, 
-          <br>attend <a href="https://ctftime.org/team/29688" title="CTF">CTF Team:Harekaze(CTFtime)</a>, 
+        <p>Our activities are very flexible. <br>For instance,
+          <br>attend <a href="https://ctftime.org/team/29688" title="CTF">CTF Team:Harekaze(CTFtime)</a>,
           <br>watch the "Hai-furi" in public holiday.</p>
         </div><!--/col-md-6-->
         <div class="col-md-6">
@@ -62,10 +62,10 @@
           <a name="activities"></a>
           <h2>Our latest result.</h2>
           <div class="c0">
-            <p>SECCON 2016 Online CTF (Jeopardy)<br> 
+            <p>SECCON 2016 Online CTF (Jeopardy)<br>
             resulted in 61st place. <br>
             <img src="img/ctf/0.jpg"> <br>
-            Writeup will be add sooner or later.</p>
+            Writeup will be added sooner or later.</p>
           </div>
         </div><!--/row-->
       </div><!--/.container-->
@@ -74,7 +74,7 @@
 
           <div class="he-wrap opt">
             <div class="bg a0" data-animate="fadeIn">
-              <h3 class="a1">Members that is my family.</h3>
+              <h3 class="a1">Members are family.</h3>
             </div><!-- he bg -->
           </div><!-- he wrap -->
 
@@ -128,7 +128,7 @@
                 <li><a href="https://twitter.com/_itto_ki" >杵崎ほまれ</a></li>
                 <li><a href="https://twitter.com/kyumina8376" >鏑木美波</a></li>
               </div>
-              <div class="col-md-2"> 
+              <div class="col-md-2">
                 <p>Big captain </p>
                 <li><a href="https://twitter.com/no_______nonono" >五十六</a></li>
                 <p>Reinforcements staff</p>
@@ -186,7 +186,7 @@
 
   function refreshWaypoints() {
     setTimeout(function() {
-    }, 1000);   
+    }, 1000);
   }
 
   $('nav.portfolio-filter ul a').on('click', function() {
@@ -197,10 +197,10 @@
     return false;
   });
 
-  function getColumnNumber() { 
-    var winWidth = $(window).width(), 
+  function getColumnNumber() {
+    var winWidth = $(window).width(),
     columnNumber = 1;
-    
+
     if (winWidth > 1200) {
       columnNumber = 5;
     } else if (winWidth > 950) {
@@ -213,31 +213,31 @@
       columnNumber = 1;
     }
     return columnNumber;
-  }       
+  }
 
   function setColumns() {
-    var winWidth = $(window).width(), 
-    columnNumber = getColumnNumber(), 
+    var winWidth = $(window).width(),
+    columnNumber = getColumnNumber(),
     itemWidth = Math.floor(winWidth / columnNumber);
 
-    $container.find('.portfolio-item').each(function() { 
-      $(this).css( { 
-        width : itemWidth + 'px' 
+    $container.find('.portfolio-item').each(function() {
+      $(this).css( {
+        width : itemWidth + 'px'
       });
     });
   }
 
-  function setPortfolio() { 
+  function setPortfolio() {
     setColumns();
     $container.isotope('reLayout');
   }
 
-  $container.imagesLoaded(function () { 
+  $container.imagesLoaded(function () {
     setPortfolio();
   });
 
-  $(window).on('resize', function () { 
-    setPortfolio();          
+  $(window).on('resize', function () {
+    setPortfolio();
   });
 })(jQuery);
 </script>
