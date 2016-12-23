@@ -104,12 +104,19 @@ input {
 	color: white;
 	letter-spacing: 1px;
 }
+#h h1, #h h2 {
+    text-shadow: 2px  2px 3px #22A7F0,
+                -2px  2px 3px #22A7F0,
+                 2px -2px 3px #22A7F0,
+                -2px -2px 3px #22A7F0;
+}
 #h h3 {
 	margin-top: 10px;
 }
 #h i {
 	font-size: 50px;
 }
+
 #g {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -147,6 +154,12 @@ input {
     -o-background-size: cover;
     background-size: cover;
     color: white;
+}
+#sep h1, #sep h3 {
+    text-shadow: 2px  2px 3px #22A7F0,
+                -2px  2px 3px #22A7F0,
+                 2px -2px 3px #22A7F0,
+                -2px -2px 3px #22A7F0;
 }
 #sep h3 {
 	font-weight: 300;
