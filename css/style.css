@@ -94,16 +94,6 @@ input {
     background-size: cover;
     color: white;
 }
-#h .logo {
-	margin-top: 30px;
-	margin-left: 40px;
-	padding-bottom: 150px;
-}
-#h .logo h2{
-	font-weight: 900;
-	color: white;
-	letter-spacing: 1px;
-}
 #h h1, #h h2 {
     text-shadow: 2px  2px 3px #22A7F0,
                 -2px  2px 3px #22A7F0,
