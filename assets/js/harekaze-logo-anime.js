@@ -1,9 +1,16 @@
+var canvasWidth;
+var canvasHeight;
+var s;
+var heightScale = 1;
+var widthScale = 1;
 window.onload = function () {
-    var s = Snap("#svg");
+    s = Snap("#svg");
     //Canvasの大きさを設定
+    canvasWidth = document.body.clientWidth;
+    canvasHeight = window.innerHeight;
     s.attr({
-        width: document.body.clientWidth,
-        height: document.body.clientHeight,
+        width: canvasWidth,
+        height: canvasHeight,
     })
     Snap.load("assets/svg/harekaze-logo-anime.svg", function (f) {
         s.append(f);
@@ -12,19 +19,19 @@ window.onload = function () {
         var logo = s.select("g#logo");
         var logoBBox = logo.getBBox();
         var logoScale;
-        if (document.body.clientHeight < document.body.clientWidth) {
-            logoScale = document.body.clientHeight / logoBBox.height;
+        if (canvasHeight < canvasWidth) {
+            logoScale = canvasHeight / logoBBox.height;
         }
         else {
-            logoScale = document.body.clientWidth / logoBBox.width;
+            logoScale = canvasWidth / logoBBox.width;
         }
         logo.attr({
             opacity: 0,
             transform: "scale(" + logoScale + ")"
         });
         var logoBBox = logo.getBBox();
-        logodx = -logoBBox.x + document.body.clientWidth * 0.5 - logoBBox.width * 0.5;
-        logody = -logoBBox.y + document.body.clientHeight * 0.5 - logoBBox.height * 0.5;
+        logodx = -logoBBox.x + canvasWidth * 0.5 - logoBBox.width * 0.5;
+        logody = -logoBBox.y + canvasHeight * 0.5 - logoBBox.height * 0.5;
         logo.attr({
             transform: "translate(" + logodx + " " + logody + ") " + "scale(" + logoScale + ")"
         });
@@ -35,8 +42,8 @@ window.onload = function () {
             transform: "scale(" + lockLineScale + ")"
         });
         var lockLineBBox = lockLine.getBBox();
-        lockLinedx = -lockLineBBox.x + document.body.clientWidth * 0.5 - lockLineBBox.width * 0.5;
-        lockLinedy = -lockLineBBox.y + document.body.clientHeight * 0.5 - lockLineBBox.height * 0.5;
+        lockLinedx = -lockLineBBox.x + canvasWidth * 0.5 - lockLineBBox.width * 0.5;
+        lockLinedy = -lockLineBBox.y + canvasHeight * 0.5 - lockLineBBox.height * 0.5;
         var lockLineLength = lockLine.getTotalLength() + 100;
         var lockLineStrokeThick = 1;
         lockLine.attr({
@@ -52,20 +59,19 @@ window.onload = function () {
         var sightingCircle = s.select("g#logo>g#sightingCircle").clone();
         var sightingCircleBBox = sightingCircle.getBBox();
         var sightingCircleScale;
-        if (document.body.clientHeight < document.body.clientWidth) {
-            sightingCircleScale = document.body.clientHeight / sightingCircleBBox.height;
+        if (canvasHeight < canvasWidth) {
+            sightingCircleScale = canvasHeight / sightingCircleBBox.height;
         }
         else {
-            sightingCircleScale = document.body.clientWidth / sightingCircleBBox.width;
+            sightingCircleScale = canvasWidth / sightingCircleBBox.width;
         }
         sightingCircle.attr({
             transform: "scale(" + sightingCircleScale + ")"
         });
         sightingCircleBBox = sightingCircle.getBBox();
-        sightingCircledx = -sightingCircleBBox.x + document.body.clientWidth * 0.5 - sightingCircleBBox.width * 0.75;
-        sightingCircledy = -sightingCircleBBox.y + document.body.clientHeight * 0.5 - sightingCircleBBox.height * 0.5;
-        if (document.body.clientWidth * 0.5 - sightingCircleBBox.width * 0.75 < 0)
-        {
+        sightingCircledx = -sightingCircleBBox.x + canvasWidth * 0.5 - sightingCircleBBox.width * 0.75;
+        sightingCircledy = -sightingCircleBBox.y + canvasHeight * 0.5 - sightingCircleBBox.height * 0.5;
+        if (canvasWidth * 0.5 - sightingCircleBBox.width * 0.75 < 0) {
             sightingCircledx = -sightingCircleBBox.x;
         }
         sightingCircle.attr({
@@ -137,8 +143,8 @@ window.onload = function () {
             console.log(sightingCircleBBox);
             var tempSightingCircleBBox = tempSightingCircle.getBBox();
             console.log(tempSightingCircleBBox);
-            tempSightingCircledx = -tempSightingCircleBBox.x + (sightingCircleBBox.cx + document.body.clientWidth * 0.5 - tempSightingCircleBBox.width * 0.5) * 0.5 -tempSightingCircleBBox.width * 0.5;
-            tempSightingCircledy = -tempSightingCircleBBox.y + (sightingCircleBBox.cy - tempSightingCircleBBox.height * 0.5 + document.body.clientHeight * 0.5 - logoBBox.height * 0.5) * 0.5 - tempSightingCircleBBox.height * 0.5;
+            tempSightingCircledx = -tempSightingCircleBBox.x + (sightingCircleBBox.cx + canvasWidth * 0.5 - tempSightingCircleBBox.width * 0.5) * 0.5 - tempSightingCircleBBox.width * 0.5;
+            tempSightingCircledy = -tempSightingCircleBBox.y + (sightingCircleBBox.cy - tempSightingCircleBBox.height * 0.5 + canvasHeight * 0.5 - logoBBox.height * 0.5) * 0.5 - tempSightingCircleBBox.height * 0.5;
             //照準の設定
             var tempSightingScale = tempSightingCircleScale;
             tempSightingdx = tempSightingCircledx;
@@ -157,13 +163,13 @@ window.onload = function () {
             s.append(blueKey);
             sightingCircle.animate({
                 transform: "translate(" + tempSightingCircledx + " " + tempSightingCircledy + ") " + "scale(" + "0 " + tempSightingCircleScale + ")"
-            }, 500);
+            }, 250);
             sighting.animate({
                 transform: "translate(" + tempSightingdx + " " + tempSightingdy + ") " + "scale(" + "0 " + tempSightingScale + ")"
-            }, 500);
+            }, 250);
             whiteKey.animate({
                 transform: "translate(" + tempWhiteKeydx + " " + tempWhiteKeydy + ") " + "scale(" + "0 " + tempWhiteKeyScale + ")"
-            }, 500, function () {
+            }, 250, function () {
                 //照準の外側の円の設定
                 tempSightingCircle.attr({
                     opacity: 0,
@@ -175,8 +181,8 @@ window.onload = function () {
                 });
                 var logoBBox = logo.getBBox();
                 var tempSightingCircleBBox = tempSightingCircle.getBBox();
-                tempSightingCircledx = -tempSightingCircleBBox.x + document.body.clientWidth * 0.5 - tempSightingCircleBBox.width * 0.5;
-                tempSightingCircledy = -tempSightingCircleBBox.y + document.body.clientHeight * 0.5 - logoBBox.height * 0.5;
+                tempSightingCircledx = -tempSightingCircleBBox.x + canvasWidth * 0.5 - tempSightingCircleBBox.width * 0.5;
+                tempSightingCircledy = -tempSightingCircleBBox.y + canvasHeight * 0.5 - logoBBox.height * 0.5;
 
                 //照準の設定
                 var tempSightingScale = tempSightingCircleScale;
@@ -196,13 +202,13 @@ window.onload = function () {
                 s.append(blueKey);
                 sightingCircle.animate({
                     transform: "translate(" + tempSightingCircledx + " " + tempSightingCircledy + ") " + "scale(" + tempSightingCircleScale + ")"
-                }, 500);
+                }, 250);
                 sighting.animate({
                     transform: "translate(" + tempSightingdx + " " + tempSightingdy + ") " + "scale(" + tempSightingScale + ")"
-                }, 500);
+                }, 250);
                 whiteKey.animate({
                     transform: "translate(" + tempWhiteKeydx + " " + tempWhiteKeydy + ") " + "scale(" + tempWhiteKeyScale + ")"
-                }, 500, function () {
+                }, 250, function () {
                     //青い鍵の設定
                     tempBlueKey.attr({
                         opacity: 0,
@@ -252,4 +258,50 @@ window.onload = function () {
             });
         });
     });
+};
+
+window.onresize = function(){
+    console.log("Resize!");
+    var canvasScale;
+    var moreResize = true;
+    var cntResize = 0;
+    while (moreResize) {
+        console.log(cntResize);
+        moreResize = false;
+        if (window.innerHeight < document.body.clientWidth) {
+            if (cntResize > 0 || canvasHeight < canvasWidth) {
+                canvasScale = window.innerHeight / canvasHeight;
+            } else {
+                canvasScale = window.innerHeight / canvasWidth;
+                moreResize = true;
+            }
+        }
+        else {
+            if (cntResize > 0 || canvasWidth < canvasHeight) {
+                canvasScale = document.body.clientWidth / canvasWidth;
+            } else {
+                canvasScale = document.body.clientWidth / canvasHeight;
+                moreResize = true;
+            }
+        }
+        cntResize++;
+        s.attr({
+            width: document.body.clientWidth,
+            height: window.innerHeight
+        })
+        var prevCanvasHeight = canvasHeight;
+        var prevCanvasWidth = canvasWidth;
+        canvasHeight = window.innerHeight;
+        canvasWidth = document.body.clientWidth;
+        s.children("g,path").forEach(function (svgData) {
+            if (typeof svgData.matrix !== "undefined") {
+                var matrix = svgData.matrix;
+                svgData.transform(Snap.matrix(matrix.a, matrix.b, matrix.c, matrix.d, matrix.e, matrix.f).scale(canvasScale).toTransformString());
+                var newBBox = svgData.getBBox();
+                var prevMatrix = matrix;
+                matrix = svgData.matrix;
+                svgData.transform(Snap.matrix(matrix.a, matrix.b, matrix.c, matrix.d, (prevMatrix.e * canvasWidth / prevCanvasWidth), (prevMatrix.f * canvasHeight / prevCanvasHeight)).toTransformString());
+            }
+        });
+    }
 }
