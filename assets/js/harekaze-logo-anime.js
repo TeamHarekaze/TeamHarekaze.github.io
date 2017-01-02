@@ -64,6 +64,10 @@ window.onload = function () {
         sightingCircleBBox = sightingCircle.getBBox();
         sightingCircledx = -sightingCircleBBox.x + document.body.clientWidth * 0.5 - sightingCircleBBox.width * 0.75;
         sightingCircledy = -sightingCircleBBox.y + document.body.clientHeight * 0.5 - sightingCircleBBox.height * 0.5;
+        if (document.body.clientWidth * 0.5 - sightingCircleBBox.width * 0.75 < 0)
+        {
+            sightingCircledx = -sightingCircleBBox.x;
+        }
         sightingCircle.attr({
             opacity: 1,
             "stroke-width": "0px",
