@@ -20,7 +20,7 @@ window.onload = function () {
         }
         logo.attr({
             opacity: 0,
-            transform: "scale(" + logoScale + ")" 
+            transform: "scale(" + logoScale + ")"
         });
         var logoBBox = logo.getBBox();
         logodx = -logoBBox.x + document.body.clientWidth * 0.5 - logoBBox.width * 0.5;
@@ -32,7 +32,7 @@ window.onload = function () {
         var lockLine = s.select("g#logo>path#lock").clone();
         var lockLineScale = logoScale;
         lockLine.attr({
-            transform: "scale(" + lockLineScale + ")" 
+            transform: "scale(" + lockLineScale + ")"
         });
         var lockLineBBox = lockLine.getBBox();
         lockLinedx = -lockLineBBox.x + document.body.clientWidth * 0.5 - lockLineBBox.width * 0.5;
@@ -59,7 +59,7 @@ window.onload = function () {
             sightingCircleScale = document.body.clientWidth / sightingCircleBBox.width;
         }
         sightingCircle.attr({
-            transform: "scale(" + sightingCircleScale + ")" 
+            transform: "scale(" + sightingCircleScale + ")"
         });
         sightingCircleBBox = sightingCircle.getBBox();
         sightingCircledx = -sightingCircleBBox.x + document.body.clientWidth * 0.5 - sightingCircleBBox.width * 0.75;
@@ -89,10 +89,10 @@ window.onload = function () {
             "stroke-width": "0px",
             transform: "translate(" + whiteKeydx + " " + whiteKeydy + ") " + "scale(" + whiteKeyScale + ")"
         });
-        
+
         //青い鍵の設定
         var blueKey = s.select("g#logo>path#key").clone();
-        var blueKeyScale = sightingScale ;
+        var blueKeyScale = sightingScale;
         blueKeydx = sightingdx;
         blueKeydy = sightingdy;
         var blueKeyLength = blueKey.getTotalLength() + 100;
@@ -107,7 +107,7 @@ window.onload = function () {
             "stroke-dashoffset": blueKeyLength,
             transform: "translate(" + blueKeydx + " " + blueKeydy + ") " + "scale(" + blueKeyScale + ")"
         });
-        
+
         s.append(logo);
         s.append(lockLine);
         s.append(sightingCircle);
@@ -115,29 +115,31 @@ window.onload = function () {
         s.append(blueKey);
         s.append(sighting);
         var tempSightingCircle = sightingCircle.clone();
+        var tempBlueKey = blueKey.clone();
         blueKey.animate({
             "stroke-dashoffset": 0
-        },2500,function() {
+        }, 2500, function () {
             //照準の外側の円の設定
             tempSightingCircle.attr({
                 opacity: 0,
                 transform: "scale(1)"
             })
-            var tempSightingCircleScale = logoScale;
+            var tempSightingCircleScale = 2 * logoScale;
             tempSightingCircle.attr({
-                transform: "scale(" + tempSightingCircleScale + ")" 
+                transform: "scale(" + "0 " + tempSightingCircleScale + ")"
             });
             var logoBBox = logo.getBBox();
+            var sightingCircleBBox = sightingCircle.getBBox();
+            console.log(sightingCircleBBox);
             var tempSightingCircleBBox = tempSightingCircle.getBBox();
             console.log(tempSightingCircleBBox);
-            tempSightingCircledx = -tempSightingCircleBBox.x + document.body.clientWidth * 0.5 - tempSightingCircleBBox.width * 0.5;
-            tempSightingCircledy = -tempSightingCircleBBox.y + document.body.clientHeight * 0.5 - logoBBox.height * 0.5;
-            
+            tempSightingCircledx = -tempSightingCircleBBox.x + (sightingCircleBBox.cx + document.body.clientWidth * 0.5 - tempSightingCircleBBox.width * 0.5) * 0.5 -tempSightingCircleBBox.width * 0.5;
+            tempSightingCircledy = -tempSightingCircleBBox.y + (sightingCircleBBox.cy - tempSightingCircleBBox.height * 0.5 + document.body.clientHeight * 0.5 - logoBBox.height * 0.5) * 0.5 - tempSightingCircleBBox.height * 0.5;
             //照準の設定
             var tempSightingScale = tempSightingCircleScale;
             tempSightingdx = tempSightingCircledx;
             tempSightingdy = tempSightingCircledy;
-            
+
             //白い鍵の設定
             whiteKey.attr({
                 opacity: 1
@@ -150,57 +152,96 @@ window.onload = function () {
             });
             s.append(blueKey);
             sightingCircle.animate({
-                transform: "translate(" + tempSightingCircledx + " " + tempSightingCircledy + ") " + "scale(" + tempSightingCircleScale + ")"
-            },1000);
+                transform: "translate(" + tempSightingCircledx + " " + tempSightingCircledy + ") " + "scale(" + "0 " + tempSightingCircleScale + ")"
+            }, 500);
             sighting.animate({
-                transform: "translate(" + tempSightingdx + " " + tempSightingdy + ") " + "scale(" + tempSightingScale + ")"
-            },1000);
+                transform: "translate(" + tempSightingdx + " " + tempSightingdy + ") " + "scale(" + "0 " + tempSightingScale + ")"
+            }, 500);
             whiteKey.animate({
-                transform: "translate(" + tempWhiteKeydx + " " + tempWhiteKeydy + ") " + "scale(" + tempWhiteKeyScale + ")"
-            },1000,function(){
-                //青い鍵の設定
-                var tempBlueKey = blueKey.clone();
-                tempBlueKey.attr({
+                transform: "translate(" + tempWhiteKeydx + " " + tempWhiteKeydy + ") " + "scale(" + "0 " + tempWhiteKeyScale + ")"
+            }, 500, function () {
+                //照準の外側の円の設定
+                tempSightingCircle.attr({
                     opacity: 0,
                     transform: "scale(1)"
                 })
-                var tempBlueKeyScale = logoScale * 3 ;
-                var tempBlueKeyRotation = -20;
-                tempBlueKey.attr({
-                    transform: "scale(" + tempBlueKeyScale + ") "  + "rotate(" + tempBlueKeyRotation + ")"
-                })
-                var lockLineBBox = lockLine.getBBox();
-                var tempBlueKeyBBox = tempBlueKey.getBBox();
-                tempBlueKeydx = -tempBlueKeyBBox.x + lockLineBBox.x + lockLineBBox.width * 0.5 - tempBlueKeyBBox.width * 0.6;
-                tempBlueKeydy = -tempBlueKeyBBox.y + lockLineBBox.y + lockLineBBox.height * 0.5 - tempBlueKeyBBox.height * 0.8;
-                blueKey.animate({
-                    "stroke-width": 0,
-                    transform: "translate(" + tempBlueKeydx + " " + tempBlueKeydy + ") " + "scale(" + tempBlueKeyScale + ") " + "rotate(" + tempBlueKeyRotation + ")"
-                },1000);
-                lockLine.animate({
-                    "stroke-dashoffset": 0
-                },1000, function() {
+                var tempSightingCircleScale = logoScale;
+                tempSightingCircle.attr({
+                    transform: "scale(" + tempSightingCircleScale + ")"
+                });
+                var logoBBox = logo.getBBox();
+                var tempSightingCircleBBox = tempSightingCircle.getBBox();
+                tempSightingCircledx = -tempSightingCircleBBox.x + document.body.clientWidth * 0.5 - tempSightingCircleBBox.width * 0.5;
+                tempSightingCircledy = -tempSightingCircleBBox.y + document.body.clientHeight * 0.5 - logoBBox.height * 0.5;
+
+                //照準の設定
+                var tempSightingScale = tempSightingCircleScale;
+                tempSightingdx = tempSightingCircledx;
+                tempSightingdy = tempSightingCircledy;
+
+                //白い鍵の設定
+                whiteKey.attr({
+                    opacity: 1
+                });
+                var tempWhiteKeyScale = tempSightingScale;
+                tempWhiteKeydx = tempSightingdx;
+                tempWhiteKeydy = tempSightingdy;
+                blueKey.attr({
+                    "stroke-width": "0px"
+                });
+                s.append(blueKey);
+                sightingCircle.animate({
+                    transform: "translate(" + tempSightingCircledx + " " + tempSightingCircledy + ") " + "scale(" + tempSightingCircleScale + ")"
+                }, 500);
+                sighting.animate({
+                    transform: "translate(" + tempSightingdx + " " + tempSightingdy + ") " + "scale(" + tempSightingScale + ")"
+                }, 500);
+                whiteKey.animate({
+                    transform: "translate(" + tempWhiteKeydx + " " + tempWhiteKeydy + ") " + "scale(" + tempWhiteKeyScale + ")"
+                }, 500, function () {
+                    //青い鍵の設定
+                    tempBlueKey.attr({
+                        opacity: 0,
+                        transform: "scale(1)"
+                    })
+                    var tempBlueKeyScale = logoScale * 3;
+                    var tempBlueKeyRotation = -20;
+                    tempBlueKey.attr({
+                        transform: "scale(" + tempBlueKeyScale + ") " + "rotate(" + tempBlueKeyRotation + ")"
+                    })
+                    var lockLineBBox = lockLine.getBBox();
+                    var tempBlueKeyBBox = tempBlueKey.getBBox();
+                    tempBlueKeydx = -tempBlueKeyBBox.x + lockLineBBox.x + lockLineBBox.width * 0.5 - tempBlueKeyBBox.width * 0.6;
+                    tempBlueKeydy = -tempBlueKeyBBox.y + lockLineBBox.y + lockLineBBox.height * 0.5 - tempBlueKeyBBox.height * 0.8;
                     blueKey.animate({
-                        opacity:0
-                    },1000);
-                    sightingCircle.animate({
-                        opacity:0    
-                    },1000);
-                    sighting.animate({
-                        opacity:0    
-                    },1000);
-                    whiteKey.animate({
-                        opacity: 0
-                    },1000);
+                        "stroke-width": 0,
+                        transform: "translate(" + tempBlueKeydx + " " + tempBlueKeydy + ") " + "scale(" + tempBlueKeyScale + ") " + "rotate(" + tempBlueKeyRotation + ")"
+                    }, 1000);
                     lockLine.animate({
-                        opacity: 0
-                    },1000, function(){
-                        logo.animate({
-                            opacity:0
-                        },1000, function() {
+                        "stroke-dashoffset": 0
+                    }, 1000, function () {
+                        blueKey.animate({
+                            opacity: 0
+                        }, 1000);
+                        sightingCircle.animate({
+                            opacity: 0
+                        }, 1000);
+                        sighting.animate({
+                            opacity: 0
+                        }, 1000);
+                        whiteKey.animate({
+                            opacity: 0
+                        }, 1000);
+                        lockLine.animate({
+                            opacity: 0
+                        }, 1000, function () {
                             logo.animate({
-                                opacity:1
-                            },1000)
+                                opacity: 0
+                            }, 1000, function () {
+                                logo.animate({
+                                    opacity: 1
+                                }, 1000)
+                            });
                         });
                     });
                 });
