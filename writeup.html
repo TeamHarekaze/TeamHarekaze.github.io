@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Harekaze">
+    <meta name="author" content="MisakiAkeno">
+    <link rel="icon" href="img/favicon.ico">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="assets/js/snap.svg-min.js"></script>
+    <script src="assets/js/harekaze-logo-anime.js"></script>
+    <title>Team Harekaze</title>
+</head>
+
+<body>
+    <div id="h">
+        <div class="container centered">
+            <div class="row">
+                <div class="c0">
+                    <img src="img/sighting_key.png">
+                    <h1>Harekaze's Writeups</h1>
+                </div>
+            </div>
+            <!--/row-->
+
+            <div class="row mt">
+                <div class="col-sm-4">
+                    <h3><a href="#SECCONCTF2016Online">SECCONCTF2016 Online</a></h3>
+                </div>
+                <!--/col-md-4-->
+                <div class="col-sm-4">
+                    <h3><a href="#Sharif7">Sharif7</a></h3>
+                </div>
+                <!--/col-md-4-->
+                <div class="col-sm-4">
+                    <h3><a href="#Whitehat2016">Whitehat2016</a></h3>
+                </div>
+                <!--/col-md-4-->
+                <div class="col-sm-4">
+                    <h3><a href="#33C3CTF">33C3CTF</a></h3>
+                </div>
+                <!--/col-md-4-->
+            </div>
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </div>
+    <!--H-->
+    <div id="g">
+        <div class="portfolio-centered mt">
+            <div class="recentitems portfolio">
+
+                <div class="he-wrap opt">
+                    <a name="SECCONCTF2016Online"></a>
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1">SECCONCTF2016 Online</h3>
+                    </div>
+                    <!-- he bg -->
+                </div>
+                <!-- he wrap -->
+                <div class="container mt">
+                    <div class="row">
+                        <p class="mb">
+                            <div class="col-md-2">
+                            </div>
+                        </p>
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+                <div class="he-wrap opt">
+                    <a name="Sharif7"></a>
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1">Sharif7</h3>
+                    </div>
+                    <!-- he bg -->
+                </div>
+                <!-- he wrap -->
+                <div class="container mt">
+                    <div class="row">
+                        <p class="mb">
+                            <div class="col-md-2">
+                            </div>
+                        </p>
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+                <div class="he-wrap opt">
+                    <a name="Whitehat2016"></a>
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1">Whitehat2016</h3>
+                    </div>
+                    <!-- he bg -->
+                </div>
+                <!-- he wrap -->
+                <div class="container mt">
+                    <div class="row">
+                        <p class="mb">
+                            <div class="col-md-2">
+                            </div>
+                        </p>
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+                <div class="he-wrap opt">
+                    <a name="33C3CTF"></a>
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1">33C3CTF</h3>
+                    </div>
+                    <!-- he bg -->
+                </div>
+                <!-- he wrap -->
+                <div class="container mt">
+                    <div class="row">
+                        <p class="mb">
+                            <div class="col-md-2">
+                                <p>pay2win</p>
+                                <ul class="writeup-list">
+                                    <li><a href="http://megumish.hatenablog.com/entry/2017/01/03/235957">テア・クロイツェル</a></li>
+                                </ul>
+                                <p>try</p>
+                                <ul class="writeup-list">
+                                    <li><a href="http://megumish.hatenablog.com/entry/2017/01/03/211632">テア・クロイツェル</a></li>
+                                </ul>
+                            </div>
+                        </p>
+                    </div>
+                    <!--/row-->
+                </div>
+
+                <div id="sep">
+                    <div class="container">
+                        <div class="row centered">
+                            <h1>Harekaze still alive!</h1>
+                            <h3 class="mb">If you want to contact us,<br>Click here.</h3>
+                            <button class="btn btn-conf btn-clear"><a href="mailto:misakiakeno@tomorinao.jp" >Contact</a></button>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/container-->
+                </div>
+                <!--/.sep-->
+
+                <div id="f">
+                    <div class="container">
+                        <div class="row centered">
+                            <a href="https://twitter.com/teamharekaze"><img src="img/favicon.ico" </a>
+                                <br>
+                                <a href="#"><span>&copy; 2016-2017 Team Harekaze</span></a>
+                        </div>
+                    </div>
+                    <!--/container-->
+                </div>
+                <!--/.F-->
+                <script>
+(function($) {
+  "use strict";
+  var $container = $('.portfolio'),
+  $items = $container.find('.portfolio-item'),
+  portfolioLayout = 'fitRows';
+
+  if( $container.hasClass('portfolio-centered') ) {
+    portfolioLayout = 'masonry';
+  }
+
+  $container.isotope({
+    filter: '*',
+    animationEngine: 'best-available',
+    layoutMode: portfolioLayout,
+    animationOptions: {
+      duration: 750,
+      easing: 'linear',
+      queue: false
+    },
+    masonry: {
+    }
+  }, refreshWaypoints());
+
+  function refreshWaypoints() {
+    setTimeout(function() {
+    }, 1000);
+  }
+
+  $('nav.portfolio-filter ul a').on('click', function() {
+    var selector = $(this).attr('data-filter');
+    $container.isotope({ filter: selector }, refreshWaypoints());
+    $('nav.portfolio-filter ul a').removeClass('active');
+    $(this).addClass('active');
+    return false;
+  });
+
+  function getColumnNumber() {
+    var winWidth = $(window).width(),
+    columnNumber = 1;
+
+    if (winWidth > 1200) {
+      columnNumber = 5;
+    } else if (winWidth > 950) {
+      columnNumber = 4;
+    } else if (winWidth > 600) {
+      columnNumber = 3;
+    } else if (winWidth > 400) {
+      columnNumber = 2;
+    } else if (winWidth > 250) {
+      columnNumber = 1;
+    }
+    return columnNumber;
+  }
+
+  function setColumns() {
+    var winWidth = $(window).width(),
+    columnNumber = getColumnNumber(),
+    itemWidth = Math.floor(winWidth / columnNumber);
+
+    $container.find('.portfolio-item').each(function() {
+      $(this).css( {
+        width : itemWidth + 'px'
+      });
+    });
+  }
+
+  function setPortfolio() {
+    setColumns();
+    $container.isotope('reLayout');
+  }
+
+  $container.imagesLoaded(function () {
+    setPortfolio();
+  });
+
+  $(window).on('resize', function () {
+    setPortfolio();
+  });
+})(jQuery);
+</script>
+
+</body>
+
+</html>
