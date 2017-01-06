@@ -140,9 +140,7 @@ window.onload = function () {
             });
             var logoBBox = logo.getBBox();
             var sightingCircleBBox = sightingCircle.getBBox();
-            console.log(sightingCircleBBox);
             var tempSightingCircleBBox = tempSightingCircle.getBBox();
-            console.log(tempSightingCircleBBox);
             tempSightingCircledx = -tempSightingCircleBBox.x + (sightingCircleBBox.cx + canvasWidth * 0.5 - tempSightingCircleBBox.width * 0.5) * 0.5 - tempSightingCircleBBox.width * 0.5;
             tempSightingCircledy = -tempSightingCircleBBox.y + (sightingCircleBBox.cy - tempSightingCircleBBox.height * 0.5 + canvasHeight * 0.5 - logoBBox.height * 0.5) * 0.5 - tempSightingCircleBBox.height * 0.5;
             //照準の設定
@@ -261,12 +259,10 @@ window.onload = function () {
 };
 
 window.onresize = function(){
-    console.log("Resize!");
     var canvasScale;
     var moreResize = true;
     var cntResize = 0;
     while (moreResize) {
-        console.log(cntResize);
         moreResize = false;
         if (window.innerHeight < document.body.clientWidth) {
             if (cntResize > 0 || canvasHeight < canvasWidth) {
