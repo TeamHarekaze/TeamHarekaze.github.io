@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 h1 {
@@ -16,22 +16,23 @@ h1 {
 h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
-}	
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+}
+p {
+	padding: 0;
+	margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 28px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 html,
 body {
 	height: 100%;
 	font-size : 95% ;
 }
+
 .alignleft { float: left; }
 .alignright { float: right; }
 .aligncenter {
@@ -49,7 +50,7 @@ body {
 a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	color: #1abc9c;
 }
 .nopadding {
@@ -83,7 +84,7 @@ input {
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 700px;
-	width: 100%;	
+	width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -112,22 +113,26 @@ input {
 	padding-bottom: 50px;
 	background: #f5f5f5;
 }
-.opt h3
-{
-	color:#fff;
-	margin:0;
-	padding:40px 5px 0;
-	font-size:16px;
-	text-transform:uppercase;
+
+.desc{
+	padding:0 8%;
 }
-.opt .bg
+
+.opt
 {
-	height:100%;
 	width:100%;
 	background-color:#00b3fe;
-	background-color:rgba(0,179,254,.9);
-	text-align:center;
+	height:60px;
 }
+
+.opt h3{
+	padding-top: 21px;
+	color:#fff;
+	font-size:18px;
+	text-transform:uppercase;
+	text-align: center;
+}
+
 #sep {
 	background: url(../img/f0.png) no-repeat center top;
 	padding-top: 100px;
