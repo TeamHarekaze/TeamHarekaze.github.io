@@ -48,9 +48,9 @@
   </div><!--H-->
 
   <div class="container ptb">
-    <div class="row">
       <a name="about"></a>
       <h2 class="centered mb">We created this team for spreading the Hai-furi<br>that makes us more happy.</h2>
+	<div class="row desc">
       <div class="col-md-6">
         <p>Our activities are very flexible. <br>For instance,
           <br>attend <a href="https://ctftime.org/team/29688" title="CTF">CTF Team:Harekaze(CTFtime)</a>,
@@ -80,19 +80,15 @@
           </div>
         </div><!--/row-->
       </div><!--/.container-->
-      <div class="portfolio-centered mt">
-        <div class="recentitems portfolio">
-
-          <div class="he-wrap opt">
-            <div class="bg a0" data-animate="fadeIn">
-              <h3 class="a1">Members are family.</h3>
-            </div><!-- he bg -->
+      <div class="mt">
+        <div class="recentitems">
+          <div class="opt">
+              <h3>Members are family.</h3>
           </div><!-- he wrap -->
 
           <div class="container mt">
-           <div class="row">
-            <div class="mb">
-              <div class="col-md-2">
+           <div class="row mb">
+              <div class="col-md-2 col-sm-4">
                 <a name="family"></a>
                 <p>Bridge staff</p>
                 <li><a href="https://twitter.com/hiww" >岬 明乃</a></li>
@@ -102,7 +98,7 @@
                 <li><a href="https://twitter.com/" >知床 鈴</a></li>
                 <li><a href="https://twitter.com/lapis_zero09" >納沙幸子</a></li>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-sm-4 col-xs-6">
                 <p>Weapons staff</p>
                 <li><a href="https://twitter.com/ykm_kn" >小笠原 光</a></li>
                 <li><a href="https://twitter.com/junk_coken" >武田美千留</a></li>
@@ -111,7 +107,7 @@
                 <li><a href="https://twitter.com/happynote3966" >姫路果代子</a></li>
                 <li><a href="https://twitter.com/neglect_yp" >万里小路 楓</a></li>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-sm-4 col-xs-6">
                 <p>Navigator staff</p>
                 <li><a href="https://twitter.com/" >勝田聡子</a></li>
                 <li><a href="https://twitter.com/yuikimil" >山下秀子</a></li>
@@ -120,7 +116,7 @@
                 <li><a href="https://twitter.com/" >宇田 慧</a></li>
                 <li><a href="https://twitter.com/theoldmoon0602" >野間マチコ</a></li>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-sm-4 col-xs-6">
                 <p>Engineer staff</p>
                 <li><a href="https://twitter.com/taiyoslime" >柳原麻侖</a></li>
                 <li><a href="https://twitter.com/konjo_p" >黒木洋美</a></li>
@@ -131,7 +127,7 @@
                 <li><a href="https://twitter.com/srknr" >和住媛萌</a></li>
                 <li><a href="https://twitter.com/levena_evenas" >青木百々</a></li>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-sm-4 col-xs-6">
                 <p>Accountant staff</p>
                 <li><a href="https://twitter.com/la2y0wI" >等松美海</a></li>
                 <li><a href="https://twitter.com/_jptomoya" >伊良子美甘</a></li>
@@ -139,7 +135,7 @@
                 <li><a href="https://twitter.com/_itto_ki" >杵崎ほまれ</a></li>
                 <li><a href="https://twitter.com/kyumina8376" >鏑木美波</a></li>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-sm-4 col-xs-6">
                 <p>Big captain </p>
                 <li><a href="https://twitter.com/no_______nonono" >五十六</a></li>
                 <p>Reinforcements staff</p>
@@ -149,7 +145,6 @@
                 <li><a href="https://twitter.com/" >杉本珊瑚</a></li>
                 <li><a href="https://twitter.com/" >藤田優衣</a></li>
               </div>
-            </div>
           </div><!--/row-->
         </div><!--/container-->
       </div><!--/.G-->
@@ -174,85 +169,6 @@
         </div><!--/container-->
       </div><!--/.F-->
       <script>
-(function($) {
-  "use strict";
-  var $container = $('.portfolio'),
-  $items = $container.find('.portfolio-item'),
-  portfolioLayout = 'fitRows';
-
-  if( $container.hasClass('portfolio-centered') ) {
-    portfolioLayout = 'masonry';
-  }
-
-  $container.isotope({
-    filter: '*',
-    animationEngine: 'best-available',
-    layoutMode: portfolioLayout,
-    animationOptions: {
-      duration: 750,
-      easing: 'linear',
-      queue: false
-    },
-    masonry: {
-    }
-  }, refreshWaypoints());
-
-  function refreshWaypoints() {
-    setTimeout(function() {
-    }, 1000);
-  }
-
-  $('nav.portfolio-filter ul a').on('click', function() {
-    var selector = $(this).attr('data-filter');
-    $container.isotope({ filter: selector }, refreshWaypoints());
-    $('nav.portfolio-filter ul a').removeClass('active');
-    $(this).addClass('active');
-    return false;
-  });
-
-  function getColumnNumber() {
-    var winWidth = $(window).width(),
-    columnNumber = 1;
-
-    if (winWidth > 1200) {
-      columnNumber = 5;
-    } else if (winWidth > 950) {
-      columnNumber = 4;
-    } else if (winWidth > 600) {
-      columnNumber = 3;
-    } else if (winWidth > 400) {
-      columnNumber = 2;
-    } else if (winWidth > 250) {
-      columnNumber = 1;
-    }
-    return columnNumber;
-  }
-
-  function setColumns() {
-    var winWidth = $(window).width(),
-    columnNumber = getColumnNumber(),
-    itemWidth = Math.floor(winWidth / columnNumber);
-
-    $container.find('.portfolio-item').each(function() {
-      $(this).css( {
-        width : itemWidth + 'px'
-      });
-    });
-  }
-
-  function setPortfolio() {
-    setColumns();
-    $container.isotope('reLayout');
-  }
-
-  $container.imagesLoaded(function () {
-    setPortfolio();
-  });
-
-  $(window).on('resize', function () {
-    setPortfolio();
-  });
-})(jQuery);
 </script>
 
 </body>
