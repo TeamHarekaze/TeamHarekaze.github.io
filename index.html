@@ -1,177 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ja">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Harekaze">
   <meta name="author" content="MisakiAkeno">
+
+  <link rel="canonical" href="https://harekaze.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Team:Harekaze">
+  <meta property="og:url" content="https://harekaze.com">
+  <meta property="og:site_name" content="Harekaze">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Team:Harekaze">
+
   <link rel="icon" href="img/favicon.ico">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <script src="assets/js/snap.svg-min.js"></script>
-  <script src="assets/js/harekaze-logo-anime.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
-  <title>Team Harekaze</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Team:Harekaze</title>
 </head>
 <body>
-  <div id="h">
-    <div class="logo">
-      <svg id=svg />
-    </div><!--/alternative logo -->
-    <div class="container centered">
-      <div class="row">
-        <div class="c0">
-          <h1>
-            Team:Harekaze<br>
-            "はいふりみて"
-          </h1>
-        </div>
-      </div><!--/row-->
+  <header class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">Harekaze</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="members.html"><i class="fa fa-users" aria-hidden="true"></i> Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="activities.html"><i class="fa fa-archive" aria-hidden="true"></i> Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-      <div class="row mt">
-        <div class="col-sm-4">
-          <h3><a href="#family">Family</a></h3>
-        </div><!--/col-md-4-->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <a href="https://twitter.com/TeamHarekaze"><img src="img/favicon.png"></a>
+      <h1 class="jumbotron-heading">Team:Harekaze</h1>
+      <p class="lead text-muted">"In a Pinch on CTF!"</p>
+    </div>
+  </section>
 
-        <div class="col-sm-4">
-          <h3><a href="#activities">Activities</a></h3>
-        </div><!--/col-md-4-->
+  <section>
+    <header class="section-header">
+      <h2 id="about"><a href="index.html#about">About</a></h2>
+    </header>
+    <div class="container">
+      <p>Harekaze is a Japanese Capture The Flag (CTF) team consists of students of Yokosuka Girls' Marine High School.</p>
+      <p>Harekaze was founded in order to promote High School Fleet (Hai-furi), which makes us more happy!</p>
+      <ul class="list-unstyled">
+        <li><i class="fa fa-flag-o" aria-hidden="true"></i> CTFtime.org : <a href="https://ctftime.org/team/29688">Harekaze</a></li>
+        <li><i class="fa fa-twitter" aria-hidden="true"></i> Twitter : <a href="https://twitter.com/TeamHarekaze">@TeamHarekaze</a></li>
+      </ul>
+    </div>
+  </section>
 
-        <div class="col-sm-4">
-          <h3><a href="#about">About Harekaze</a></h3>
-        </div><!--/col-md-4-->
+  <section>
+    <header class="section-header">
+      <h2 id="members"><a href="members.html">Members</a></h2>
+    </header>
+    <div class="container">
+      <p>海の仲間は家族だから!</p>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="members.html#bridge">Bridge&lt;艦橋要員&gt;</a></li>
+        <li class="list-group-item"><a href="members.html#combat">Combat&lt;砲雷科&gt;</a></li>
+        <li class="list-group-item"><a href="members.html#navigation">Navigation&lt;航海科&gt;</a></li>
+        <li class="list-group-item"><a href="members.html#engineering">Engineering&lt;機関科&gt;</a></li>
+        <li class="list-group-item"><a href="members.html#logistics">Logistics&lt;主計科&gt;</a></li>
+        <li class="list-group-item"><a href="members.html#yokosuka">Yokosuka Girls</a></li>
+        <li class="list-group-item"><a href="members.html#wilhelmshaven">Wilhelmshaven</a></li>
+        <li class="list-group-item"><a href="members.html#dartmouth">Dartmouth</a></li>
+        <li class="list-group-item"><a href="members.html#others">Others</a></li>
+      </ul>
+      <p>Would you like to join us? <a href="contact.html">Contact us</a>! (Note: We communicate in Japanese.)</p>
+    </div>
+  </section>
 
-      </div><!--/row-->
-    </div><!--/container-->
-  </div><!--H-->
+  <section>
+    <header class="section-header">
+      <h2 id="activities"><a href="activities.html">Activities</a></h2>
+    </header>
+    <div class="container">
+      <p>We frequently participate in CTFs.</p>
+      <p>Check out our latest results on <a href="https://ctftime.org/team/29688">our CTFtime page</a>.</p>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="activities.html#2017">2017</a></li>
+        <li class="list-group-item"><a href="activities.html#2016">2016</a></li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="container ptb">
-      <a name="about"></a>
-      <h2 class="centered mb">We created this team for spreading the Hai-furi<br>that makes us more happy.</h2>
-	<div class="row desc">
-      <div class="col-md-6">
-        <p>Our activities are very flexible. <br>For instance,
-          <br>attend <a href="https://ctftime.org/team/29688" title="CTF">CTF Team:Harekaze(CTFtime)</a>,
-          <br>watch the "Hai-furi" in public holiday.</p>
-        </div><!--/col-md-6-->
-        <div class="col-md-6">
-          <p>Always we welcome team members.<br>(Please note our team members communicate in Japanese.)</p>
-        </div><!--/col-md-6-->
-      </div><!--/row-->
-    </div><!-- /.container -->
-    <div id="g">
-      <div class="container">
-        <div class="row centered">
-          <a name="activities"></a>
-          <h2>Our latest writeup</h2>
-          <div class="c0">
-	    <p>Participated in 2017</p>
-	    <p><a href="writeup.html#">BSides San Francisco CTF</a></p>
-	    <p><a href="writeup.html#">Hackcon Mini</a></p>
-            <p><a href="writeup.html#">nullcon HackIM</a></p>
-            <p><a href="writeup.html#">BITSCTF 2017</a></p>
-            <p><a href="writeup.html#">AlexCTF</a></p>
-            <p><a href="writeup.html#">Insomni'hack teaser 2017</a></p>
-	    <p>Participated in 2016</p>  
-            <p><a href="writeup.html#33C3CTF">33C3CTF</a></p>
-            <p><a href="writeup.html#Whitehat2016">Whitehat2016</a></p>
-            <p><a href="writeup.html#Sharif7">Sharif7</a></p>
-            <p><a href="writeup.html#SECCONCTF2016Online">SECCONCTF2016 Online</a></p>
-          </div>
-        </div><!--/row-->
-      </div><!--/.container-->
-      <div class="mt">
-        <div class="recentitems">
-          <div class="opt">
-              <h3>Members are family.</h3>
-          </div><!-- he wrap -->
+  <section>
+    <header class="section-header">
+      <h2 id="contact"><a href="contact.html">Contact</a></h2>
+    </header>
+  </section>
 
-          <div class="container mt">
-           <div class="row mb">
-              <div class="col-md-2 col-sm-4">
-                <a name="family"></a>
-                <p>Bridge staff</p>
-                <li><a href="https://twitter.com/hiww" >岬 明乃</a></li>
-                <li><a href="https://twitter.com/nkhrlab" >宗谷ましろ</a></li>
-                <li><a href="https://twitter.com/shepherd1021" >立石志摩</a></li>
-                <li><a href="https://twitter.com/Tkon_sec" >西崎芽依</a></li>
-                <li><a href="https://twitter.com/jtwp470" >知床 鈴</a></li>
-                <li><a href="https://twitter.com/" >納沙幸子</a></li>
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-6">
-                <p>Weapons staff</p>
-                <li><a href="https://twitter.com/ykm_kn" >小笠原 光</a></li>
-                <li><a href="https://twitter.com/junk_coken" >武田美千留</a></li>
-                <li><a href="https://twitter.com/tatarhy" >日置順子</a></li>
-                <li><a href="https://twitter.com/sksat_T_3years " >松永理都子</a></li>
-                <li><a href="https://twitter.com/happynote3966" >姫路果代子</a></li>
-                <li><a href="https://twitter.com/neglect_yp" >万里小路 楓</a></li>
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-6">
-                <p>Navigator staff</p>
-                <li><a href="https://twitter.com/" >勝田聡子</a></li>
-                <li><a href="https://twitter.com/yuikimil" >山下秀子</a></li>
-                <li><a href="https://twitter.com/" >内田まゆみ</a></li>
-                <li><a href="https://twitter.com/_ktwr" >八木 鶫</a></li>
-                <li><a href="https://twitter.com/" >宇田 慧</a></li>
-                <li><a href="https://twitter.com/theoldmoon0602" >野間マチコ</a></li>
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-6">
-                <p>Engineer staff</p>
-                <li><a href="https://twitter.com/taiyoslime" >柳原麻侖</a></li>
-                <li><a href="https://twitter.com/konjo_p" >黒木洋美</a></li>
-                <li><a href="https://twitter.com/aktoo3097" >若狭麗緒</a></li>
-                <li><a href="https://twitter.com/reinforchu" >伊勢桜良</a></li>
-                <li><a href="https://twitter.com/jaganikuman" >駿河留奈</a></li>
-                <li><a href="https://twitter.com/st98_" >広田 空</a></li>
-                <li><a href="https://twitter.com/" >和住媛萌</a></li>
-                <li><a href="https://twitter.com/levena_evenas" >青木百々</a></li>
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-6">
-                <p>Accountant staff</p>
-                <li><a href="https://twitter.com/la2y0wI" >等松美海</a></li>
-                <li><a href="https://twitter.com/_jptomoya" >伊良子美甘</a></li>
-                <li><a href="https://twitter.com/shunyona" >杵崎あかね</a></li>
-                <li><a href="https://twitter.com/_itto_ki" >杵崎ほまれ</a></li>
-                <li><a href="https://twitter.com/kyumina8376" >鏑木美波</a></li>
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-6">
-                <p>Big captain </p>
-                <li><a href="https://twitter.com/no_______nonono" >五十六</a></li>
-                <p>Reinforcements staff</p>
-                <li><a href="https://twitter.com/cunomiuna" >知名もえか</a></li>
-                <li><a href="https://twitter.com/megumish" >テア・クロイツェル</a></li>
-                <li><a href="https://twitter.com/" >ヴィルヘルミーナ</a></li>
-                <li><a href="https://twitter.com/" >杉本珊瑚</a></li>
-                <li><a href="https://twitter.com/" >藤田優衣</a></li>
-              </div>
-          </div><!--/row-->
-        </div><!--/container-->
-      </div><!--/.G-->
+  <footer class="footer">
+    <a href="index.html"><span>&copy; 2016-2017 Harekaze</span></a>
+  </footer>
 
-      <div id="sep">
-        <div class="container">
-          <div class="row centered">
-            <h1>Harekaze still alive!</h1>
-            <h3 class="mb">If you want to contact us,<br>Click here.</h3>
-            <button class="btn btn-conf btn-clear"><a href="mailto:misakiakeno@tomorinao.jp" >Contact</a></button>
-          </div><!--/row-->
-        </div><!--/container-->
-      </div><!--/.sep-->
-
-      <div id="f">
-        <div class="container">
-          <div class="row centered">
-            <a href="https://twitter.com/teamharekaze"><img src="img/favicon.ico"</a>
-            <br>
-            <a href="#" ><span>&copy; 2016-2017 Team Harekaze</span></a>
-          </div>
-        </div><!--/container-->
-      </div><!--/.F-->
-      <script>
-</script>
-
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
