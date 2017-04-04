@@ -1,0 +1,16 @@
+title: Team:Harekaze
+email: misakiakeno@tomorinao.jp
+description: Harekaze is a Japanese Capture The Flag (CTF) team.
+baseurl: /
+url: https://harekaze.com
+
+twitter_username: TeamHarekaze
+github_username: TeamHarekaze
+
+markdown: kramdown
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - README.md
