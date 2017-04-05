@@ -1,0 +1,196 @@
+- year: 2017
+  ctfs: 
+    - name: "Teaser CONFidence CTF 2017"
+      rank: 35
+      participants: 258
+      writeups: 
+        - title: "Teaser CONFidence CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-04-03-teaser-confidence-ctf-2017.html"
+    - name: "Nuit du Hack CTF Quals 2017"
+      rank: 115
+      participants: 378
+      writeups:
+        - title: "Nuit du Hack CTF Quals 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-04-03-nuit-du-hack-ctf-quals-2017.html"
+    - name: "April Fools' GTF 2017"
+      rank: 13
+      participants: 235
+      writeups:
+        - title: "April Fools' GTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-04-03-april-fools-gtf-2017.html"
+    - name: "Securinets CTF Quals 2017"
+      rank: 1
+      participants: 78
+      writeups:
+        - title: "Securinets CTF Quals 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-28-securinets-ctf-quals-2017.html"
+    - name: "DoubleS1405 CTF"
+      rank: 9
+      participants: 130
+      writeups:
+        - title: "DoubleS1405 CTF 2017 Writeup - 備忘録的なやつ"
+          url: "http://hiww.hatenablog.com/entry/2017/03/27/DoubleS1405_CTF_2017_Writeup"
+        - title: "DoubleS1405 CTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-28-doubles1405-ctf.html"
+        - title: "DoubleS1405 CTF Writeup - Gen's blog"
+          url: "http://gen-ius.hatenablog.com/entry/2017/03/30/222809"
+    - name: "WhiteHat Challenge 02"
+      rank: 6
+      participants: 81
+      writeups:
+        - title: "WhiteHat Challenge 02 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-28-whitehat-challenge-02.html"
+    - name: "VolgaCTF 2017 Quals"
+      rank: 61
+      participants: 677
+      writeups:
+        - title: "VolgaCTF 2017 Quals の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-28-volgactf-2017-quals.html"
+    - name: "0CTF 2017 Quals"
+      rank: 84
+      participants: 908
+      writeups:
+        - title: "0CTF 2017 Quals の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-20-0ctf-2017-quals.html"
+    - name: "ScytheCTF 2017"
+      rank: 7
+      participants: 84
+      writeups:
+        - title: "ScytheCTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-20-scythectf-2017.html"
+        - title: "ScytheCTF 2017 Writeup - Gen's blog"
+          url: "http://gen-ius.hatenablog.com/entry/2017/03/21/185106"
+    - name: "サイバーコロッセオxSECCON 2016"
+      rank: 13
+      participants: 24
+      writeups:
+        - title: "サイバーコロッセオxSECCON 2016 に参加しました - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-07-cyber-colosseo.html"
+        - title: "サイバーコロッセオに参加してきました - jtwp470’s blog"
+          url: "http://jtwp470.hatenablog.jp/entry/cyber-colosseo-2016"
+    - name: "Pragyan CTF 2017"
+      rank: 150
+      participants: 525
+      writeups:
+        - title: "Pragyan CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-03-06-pragyan-ctf-2017.html"
+    - name: "Xiomara CTF 2017"
+      rank: 15
+      participants: 334
+      writeups:
+        - title: "Xiomara CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-28-xiomara-ctf-2017.html"
+        - title: "Xiomara CTF 2017 Write-up - 備忘録的なやつ"
+          url: "http://hiww.hatenablog.com/entry/2017/03/01/Xiomara_CTF_2017_Write-up"
+    - name: "VolgaCTF 2017 Teaser"
+      rank: 34
+      participants: 80
+      writeups:
+        - title: "VolgaCTF 2017 Teaser の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-26-volgactf-2017-teaser.html"
+    - name: "WhiteHat Challenge 01"
+      rank: 5
+      participants: 70
+      writeups:
+        - title: "WhiteHat Challenge 01 (2017/02/26) - Writeup - nkhrlab~"
+          url: "http://nkhrlab.hatenablog.com/entry/2017/02/26/035315"
+        - title: "WhiteHat Challenge 01 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-26-whitehat-challenge-01.html"
+        - title: "WhiteHat WARGAME Writeup - ふるつき"
+          url: "http://furutsuki.hatenablog.com/entry/2017/02/25/204551"
+    - name: "Boston Key Party CTF 2017"
+      rank: 135
+      participants: 948
+      writeups:
+        - title: "Boston Key Party CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-28-boston-key-party-ctf-2017.html"
+    - name: "BSides San Francisco CTF"
+      rank: 18
+      participants: 531
+      writeups:
+        - title: "BSidesSF CTF Writeup - Gen's blog"
+          url: "http://gen-ius.hatenablog.com/entry/2017/02/14/182201"
+        - title: "BSides San Francisco CTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-14-bsides-sf-ctf.html"
+    - name: "Hackcon Mini"
+      rank: 8
+      participants: 110
+      writeups:
+        - title: "Hackcon Mini の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-12-hackcon-mini.html"
+    - name: "nullcon HackIM"
+      rank: 38
+      participants: 363
+      writeups:
+        - title: "nullcon HackIM の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-12-nullcon-hackim.html"
+    - name: "Codegate 2017 prequals"
+      rank: 163
+      participants: 471
+      writeups:
+    - name: "BITSCTF 2017"
+      rank: 18
+      participants: 275
+      writeups:
+        - title: "BITSCTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-06-bitsctf-2017.html"
+        - title: "BITSCTF 2017 writeup - Gen's blog"
+          url: "http://gen-ius.hatenablog.com/entry/2017/02/06/101320"
+        - title: "BITSCTF Writeup - ごちうさ民の覚え書き"
+          url: "http://kataware.hatenablog.jp/entry/2017/02/06/105703"
+        - title: "BITSCTF 2017 Write-up - 備忘録的なやつ"
+          url: "http://hiww.hatenablog.com/entry/2017/02/06/BITSCTF_2017_Write-up"
+    - name: "AlexCTF"
+      rank: 68
+      participants: 1029
+      writeups:
+        - title: "AlexCTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-02-06-alexctf.html"
+        - title: "紺青さんのツイート: \"AlexCTFのWriteUp …\""
+          url: "https://twitter.com/konjo_p/status/828531085805969409"
+        - title: "Alex CTF Writeup - ごちうさ民の覚え書き"
+          url: "http://kataware.hatenablog.jp/entry/2017/02/07/004031"
+    - name: "SECCON 2016 Final competition"
+      rank: 24
+      participants: 24
+      writeups:
+    - name: "Insomni'hack teaser 2017"
+      rank: 68
+      participants: 339
+      writeups:
+        - title: "Insomni'hack teaser 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-01-23-insomnihack-teaser-2017.html"
+- year: 2016
+  ctfs: 
+    - name: "33C3 CTF"
+      rank: 135
+      participants: 277
+      writeups:
+    - name: "WhiteHat Grand Prix 2016"
+      rank: 18
+      participants: 111
+      writeups: 
+        - title: "WhiteHat CTF 2016 Writeup - ごちうさ民の覚え書き"
+          url: "http://kataware.hatenablog.jp/entry/2016/12/18/175844"
+        - title: "WhiteHat CTF 2016 Writeup - Unpronounceable Name"
+          url: "http://tatarhy.hatenablog.jp/entry/2016/12/18/195743"
+        - title: "WhiteHatCTF2016 WriteUp - 学習の栞"
+          url: "http://konjo-p.hatenablog.com/entry/2016/12/18/185524"
+    - name: "SharifCTF 7"
+      rank: 122
+      participants: 700
+      writeups: 
+        - title: "Sharif7CTFのWriteUp - ふるつき"
+          url: "http://furutsuki.hatenablog.com/entry/2016/12/19/220905"
+    - name: "SECCON 2016 Online CTF"
+      rank: 61
+      participants: 930
+      writeups: 
+        - title: "SECCON 2016 オンライン予選に参加しました - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2016-12-11-seccon-2016-online.html"
+        - title: "SECON 2016 Online CTFに参加していた - 気まぐれ雑記(仮)"
+          url: "http://jptomoya.hatenablog.com/entry/2016/12/12/140136"
+        - title: "晴風(Harekaze)でSECCON 2016 Online CTFに参加して轟沈したお話。 - 備忘録的なやつ"
+          url: "http://hiww.hatenablog.com/entry/20161213/harekaze"
+        - title: "SECCON2016qual 参加記 - 学習の栞"
+          url: "http://konjo-p.hatenablog.com/entry/2016/12/11/204700"
