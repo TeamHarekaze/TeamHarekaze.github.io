@@ -1,0 +1,38 @@
+{% if page.title %}
+  {% assign title = page.title | append: ' - Harekaze' %}
+{% else %}
+  {% assign title = site.title %}
+{% endif %}
+{% if page.description %}
+  {% assign description = page.description %}
+{% else %}
+  {% assign description = site.description %}
+{% endif %}
+{% assign base_path = site.url | append: site.baseurl %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ description }}">
+  <meta name="author" content="MisakiAkeno">
+
+  <link rel="canonical" href="{{ base_path }}{{ page.path | remove: 'index.html' }}">
+
+  <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:url" content="{{ base_path }}{{ page.path | remove: 'index.html' }}">
+  <meta property="og:image" content="{{ base_path }}img/favicon.png">
+  <meta property="og:site_name" content="Harekaze">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@TeamHarekaze">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="{{ base_path }}img/favicon.png">
+
+  <link rel="icon" href="{{ site.baseurl }}img/favicon.ico">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
+  <title>{{ title }}</title>
+</head>

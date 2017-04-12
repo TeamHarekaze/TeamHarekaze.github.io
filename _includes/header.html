@@ -1,0 +1,27 @@
+<header class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <nav class="container">
+    <a class="navbar-brand" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}img/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">Harekaze</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item {% if page.url == '/' %}active{% endif %}">
+          <a class="nav-link" href="{{ site.baseurl }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}#about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+        </li>
+        <li class="nav-item {% if page.url == '/members.html' %}active{% endif %}">
+          <a class="nav-link" href="{{ site.baseurl }}members.html"><i class="fa fa-users" aria-hidden="true"></i> Members</a>
+        </li>
+        <li class="nav-item {% if page.url == '/activities.html' %}active{% endif %}">
+          <a class="nav-link" href="{{ site.baseurl }}activities.html"><i class="fa fa-archive" aria-hidden="true"></i> Activities</a>
+        </li>
+        <li class="nav-item {% if page.url == '/contact.html' %}active{% endif %}">
+          <a class="nav-link" href="{{ site.baseurl }}contact.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
