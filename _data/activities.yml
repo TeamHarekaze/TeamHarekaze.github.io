@@ -18,7 +18,7 @@
       rank: 32
       participants: 305
       writeups:
-       - title: "Insigne CTF の write-up - st98 の日記帳"
+        - title: "Insigne CTF の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-04-26-insigne-ctf.html"
     - name: "BCTF 2017"
       rank: 61
