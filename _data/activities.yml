@@ -1,5 +1,11 @@
 - year: 2017
   ctfs:
+    - name: "WhiteHat Challenge 03"
+      rank: 24
+      participants: 101
+      writeups:
+        - title: "WhiteHat Challenge 03 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-04-27-whitehat-challenge-03.html"
     - name: "TAMUctf 2017"
       rank: 20
       participants: 708
