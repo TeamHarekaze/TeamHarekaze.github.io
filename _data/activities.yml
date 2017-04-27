@@ -4,7 +4,7 @@
       rank: 20
       participants: 708
       writeups:
-        - title: "TAMUctf 2017 Writeup - 備忘録的なやつ"
+        - title: "TAMUctf 2017 Writeup - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/04/24/TAMUctf_2017_Writeup"
         - title: "TAMUctf 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-04-26-tamuctf-2017.html"
@@ -40,7 +40,7 @@
       rank: 9
       participants: 204
       writeups:
-        - title: "Sunshine CTF 2017 Writeup - 備忘録的なやつ"
+        - title: "Sunshine CTF 2017 Writeup - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/04/09/Sunshine_CTF_2017_Writeup"
         - title: "Sunshine CTF 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-04-10-sunshine-ctf-2017.html"
@@ -72,7 +72,7 @@
       rank: 9
       participants: 130
       writeups:
-        - title: "DoubleS1405 CTF 2017 Writeup - 備忘録的なやつ"
+        - title: "DoubleS1405 CTF 2017 Writeup - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/03/27/DoubleS1405_CTF_2017_Writeup"
         - title: "DoubleS1405 CTF の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-03-28-doubles1405-ctf.html"
@@ -112,6 +112,8 @@
           url: "https://st98.github.io/diary/posts/2017-03-07-cyber-colosseo.html"
         - title: "サイバーコロッセオに参加してきました - jtwp470’s blog"
           url: "http://jtwp470.hatenablog.jp/entry/cyber-colosseo-2016"
+        - title: "サイバーコロッセオxSECCON 2016 に参加した - hiww_備忘録"
+          url: "http://hiww.hatenablog.com/entry/cybercolosseoxseccon2016"
     - name: "Pragyan CTF 2017"
       rank: 150
       participants: 525
@@ -124,7 +126,7 @@
       writeups:
         - title: "Xiomara CTF 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-02-28-xiomara-ctf-2017.html"
-        - title: "Xiomara CTF 2017 Write-up - 備忘録的なやつ"
+        - title: "Xiomara CTF 2017 Write-up - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/03/01/Xiomara_CTF_2017_Write-up"
     - name: "VolgaCTF 2017 Teaser"
       rank: 34
@@ -182,7 +184,7 @@
           url: "http://gen-ius.hatenablog.com/entry/2017/02/06/101320"
         - title: "BITSCTF Writeup - ごちうさ民の覚え書き"
           url: "http://kataware.hatenablog.jp/entry/2017/02/06/105703"
-        - title: "BITSCTF 2017 Write-up - 備忘録的なやつ"
+        - title: "BITSCTF 2017 Write-up - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/02/06/BITSCTF_2017_Write-up"
     - name: "AlexCTF"
       rank: 68
@@ -234,7 +236,7 @@
           url: "https://st98.github.io/diary/posts/2016-12-11-seccon-2016-online.html"
         - title: "SECON 2016 Online CTFに参加していた - 気まぐれ雑記(仮)"
           url: "http://jptomoya.hatenablog.com/entry/2016/12/12/140136"
-        - title: "晴風(Harekaze)でSECCON 2016 Online CTFに参加して轟沈したお話。 - 備忘録的なやつ"
+        - title: "晴風(Harekaze)でSECCON 2016 Online CTFに参加して轟沈したお話。 - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/20161213/harekaze"
         - title: "SECCON2016qual 参加記 - 学習の栞"
           url: "http://konjo-p.hatenablog.com/entry/2016/12/11/204700"
