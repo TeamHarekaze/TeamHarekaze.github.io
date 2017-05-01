@@ -1,12 +1,13 @@
 - year: 2017
   ctfs:
-  
-    - name: "angstromCTF"
+    - name: "angstromCTF 2017"
       rank: 10
       participants: 783
       writeups:
         - title: "angstromCTF 2017 Writeup - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/05/01/angstromCTF_2017_Writeup"
+        - title: "angstromCTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-05-01-angstromctf-2017.html"
     - name: "WhiteHat Challenge 03"
       rank: 24
       participants: 101
