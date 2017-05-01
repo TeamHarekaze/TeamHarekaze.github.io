@@ -1,5 +1,15 @@
 - year: 2017
   ctfs:
+    - name: "DEF CON CTF Qualifier 2017"
+      rank: 80
+      participants: 368
+      writeups:
+    - name: "UIUCTF 2017"
+      rank: 13
+      participants: 163
+      writeups:
+        - title: "UIUCTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-05-01-uiuctf-2017.html"
     - name: "angstromCTF 2017"
       rank: 10
       participants: 783
