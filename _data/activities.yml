@@ -4,6 +4,8 @@
       rank: 80
       participants: 368
       writeups:
+        - title: "DEF CON CTF 2017 Qualifiers の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-05-02-def-con-ctf-2017-qualifiers.html"
     - name: "UIUCTF 2017"
       rank: 13
       participants: 163
