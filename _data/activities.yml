@@ -18,6 +18,8 @@
           url: "http://hiww.hatenablog.com/entry/2017/05/01/angstromCTF_2017_Writeup"
         - title: "angstromCTF 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-05-01-angstromctf-2017.html"
+        - title: "AngstromCTF2017-供養 - ごちうさ民の覚え書き"
+          url: "http://kataware.hatenablog.jp/entry/2017/05/02/144146"
     - name: "WhiteHat Challenge 03"
       rank: 24
       participants: 101
@@ -38,6 +40,8 @@
       writeups:
         - title: "PlaidCTF 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-04-26-plaidctf-2017.html"
+        - title: "PlaidCTF2017(供養) - ごちうさ民の覚え書き"
+          url: "http://kataware.hatenablog.jp/entry/2017/04/27/114810"
     - name: "Insigne CTF"
       rank: 32
       participants: 305
