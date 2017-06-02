@@ -2,7 +2,7 @@
   ctfs:
     - name: "Security Fest CTF 2017"
       rank: 10
-      participants: ?
+      participants: 427
       writeups:
         - title: "Security Fest 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-06-02-security-fest-2017.html"
