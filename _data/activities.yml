@@ -7,7 +7,11 @@
         - title: "Security Fest 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-06-02-security-fest-2017.html"
         - title: "Security Fest CTF 2017 Writeup - hiww_備忘録"
-          url: "http://hiww.hatenablog.com/entry/2017/06/02/Security_Fest_CTF_2017_Writeup" 
+          url: "http://hiww.hatenablog.com/entry/2017/06/02/Security_Fest_CTF_2017_Writeup"
+        - title: "SecurityFest CTF 2017 [Pwn 50] Ping - pwnと空高く"
+          url: "http://pwn.megumi.sh/entry/2017/06/02/200917"
+        - title: "SecurityFest CTF 2017 [Web 200] Freddy vs json - megumishの日記"
+          url: "http://diary.megumi.sh/entry/2017/06/03/153629"
     - name: "WhiteHat Contest 13"
       rank: 25
       participants: 108
