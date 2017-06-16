@@ -8,6 +8,8 @@
           url: "https://st98.github.io/diary/posts/2017-06-12-sha2017-2017-ctf-teaser-round.html"
         - title: "SHA2017 CTF Teaser round Writeup - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/06/12/SHA2017_CTF_Teaser_round_Writeup"
+        - title: "SHA2017 CTF Teaser: maze - うさぎ小屋"
+          url: "https://kimiyuki.net/blog/2017/06/11/sha2017-ctf-teaser-maze/"   
     - name: "Security Fest CTF 2017"
       rank: 10
       participants: 427
