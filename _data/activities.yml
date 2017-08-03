@@ -1,5 +1,13 @@
 - year: 2017
   ctfs:
+    - name: "bugs_bunny ctf 2k17"
+      rank: 10
+      participants: 420
+      writeups:
+        - title: "bugsbunnyctf2017 [Pwn 200] Pwn200 - pwnと空高く"
+          url: "http://pwn.megumi.sh/entry/2017/07/31/235417"
+        - title: "bugs_bunny ctf 2k17 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-08-01-bugs-bunny-ctf-2k17.html"
     - name: "CTFZone 2017"
       rank: 25
       participants: 55
