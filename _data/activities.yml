@@ -8,6 +8,8 @@
           url: "http://pwn.megumi.sh/entry/2017/07/31/235417"
         - title: "bugs_bunny ctf 2k17 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-08-01-bugs-bunny-ctf-2k17.html"
+        - title: "bugs_bunny_ctf_2k17 Writeup - hiww_備忘録"
+          url: "http://hiww.hatenablog.com/entry/2017/08/04/bugs_bunny_ctf_2k17_Writeup"
     - name: "CTFZone 2017"
       rank: 25
       participants: 55
