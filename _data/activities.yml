@@ -1,5 +1,11 @@
 - year: 2017
   ctfs:
+    - name: "SHA2017 CTF"
+      rank: 18
+      participants: 462
+      writeups:
+        - title: "SHA2017 CTF  Writeup - hiww_備忘録"
+          url: "http://hiww.hatenablog.com/entry/2017/08/07/SHA2017_CTF_Writeup"
     - name: "bugs_bunny ctf 2k17"
       rank: 10
       participants: 420
