@@ -6,6 +6,8 @@
       writeups:
         - title: "SHA2017 CTF  Writeup - hiww_備忘録"
           url: "http://hiww.hatenablog.com/entry/2017/08/07/SHA2017_CTF_Writeup"
+        - title: "SHA2017 CTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-08-09-sha2017-ctf.html"
     - name: "bugs_bunny ctf 2k17"
       rank: 10
       participants: 420
