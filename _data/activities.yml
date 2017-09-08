@@ -1,5 +1,41 @@
 - year: 2017
   ctfs:
+    - name: "Tokyo Westerns CTF 3rd 2017"
+      rank: 33
+      participants: 901
+      writeups:
+        - title: "Twctf · うさぎ小屋"
+          url: "http://kimiyuki.net/categories/twctf/"
+        - title: "Tokyo Westerns CTF 3rd 2017 WriteUp - 学習の栞"
+          url: "http://konjo-p.hatenablog.com/entry/2017/09/04/232033"
+        - title: "Tokyo Westerns CTF 3rd 2017(2017/9/2 - 2017/9/4) - Writeup - nkhrlab~"
+          url: "http://nkhrlab.hatenablog.com/entry/2017/09/06/034202"
+    - name: "SECCON 2017 x CEDEC CHALLENGE"
+      rank: 1
+      participants: "?"
+      writeups:
+        - title: "SECCON 2017 × CEDEC CHALLENGE Harekaze // Speaker Deck"
+          url: "https://speakerdeck.com/harekaze/seccon-2017-x-cedec-challenge-harekaze"
+        - title: "SECCON 2017 x CEDEC CHALLENGE ゲームクラッキング＆チートチャレンジ"
+          url: "https://cedil.cesa.or.jp/cedil_sessions/view/1625"
+        - title: "SECCON 2017 x CEDEC CHALLENGE に参加しました - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-09-08-seccon-2017-x-cedec-challenge.html"
+    - name: "HackCon 2017"
+      rank: 8
+      participants: 345
+      writeups:
+        - title: "HackCon 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-09-08-hackcon-2017.html"
+    - name: "HackIT CTF 2017"
+      rank: 39
+      participants: 338
+      writeups:
+        - title: "HackIT CTF 2017 [Pwn 150] Today’s moon phase - pwnと空高く"
+          url: "http://pwn.megumi.sh/entry/2017/08/28/010239"
+        - title: "HackIT CTF 2017 [Pwn 200] Terminator canary - pwnと空高く"
+          url: "http://pwn.megumi.sh/entry/2017/08/28/020013"
+        - title: "HackIT CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-09-08-hackit-ctf-2017.html"
     - name: "SHA2017 CTF"
       rank: 18
       participants: 462
