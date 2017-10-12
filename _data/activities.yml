@@ -1,5 +1,39 @@
 - year: 2017
   ctfs:
+    - name: "Can-CWIC CTF 2017"
+      rank: 4
+      participants: 135
+      writeups:
+        - title: "Can-CWIC CTF2017 [Write-up] - ぺんぎんさんのおうち"
+          url: "http://ykm11.hatenablog.com/entry/2017/10/09/190943"
+        - title: "Can-CWIC CTF 2017 の write-up - st98 の日記帳"
+          url: "https://localhost:4000/posts/2017-10-12-can-cwic-ctf-2017.html"
+    - name: "Kaspersky Industrial CTF Quals 2017"
+      rank: 32
+      participants: 227
+      writeups:
+        - title: "Kaspersky Industrial CTF Quals 2017 write-up - ゼオスTTのブログ"
+          url: "http://zeosutt.hatenablog.com/entry/2017/10/10/033717"
+        - title: "Kaspersky Industrial CTF Quals 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-10-11-kaspersky-industrial-ctf-quals-2017.html"
+    - name: "DefCamp CTF Qualification 2017"
+      rank: 23
+      participants: 471
+      writeups:
+        - title: "D-CTF Quals 2017 [Write-up] - ぺんぎんさんのおうち"
+          url: "http://ykm11.hatenablog.com/entry/2017/10/01/212512"
+        - title: "DefCamp CTF Qualification 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-10-02-defcamp-ctf-qualification-2017.html"
+        - title: "Don't net, kids! - megumishの日記"
+          url: "http://diary.megumi.sh/entry/2017/10/03/213054"
+        - title: "DefCamp CTF Qualification 2017 Writeup - hiww_備忘録"
+          url: "http://hiww.hatenablog.com/entry/2017/10/04/DefCamp_CTF_Qualification_2017_Writeup"
+    - name: "BackdoorCTF 2017"
+      rank: 9
+      participants: 212
+      writeups:
+        - title: "BackdoorCTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-09-26-backdoorctf-2017.html"
     - name: "EKOPARTY CTF 2017"
       rank: 17
       participants: 184
