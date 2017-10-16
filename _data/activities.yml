@@ -1,5 +1,11 @@
 - year: 2017
   ctfs:
+    - name: "Hack Dat Kiwi 2017"
+      rank: 179
+      participants: 306
+      writeups:
+        - title: "Hack Dat Kiwi 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-10-16-hack-dat-kiwi-2017.html"
     - name: "Can-CWIC CTF 2017"
       rank: 4
       participants: 135
@@ -7,7 +13,7 @@
         - title: "Can-CWIC CTF2017 [Write-up] - ぺんぎんさんのおうち"
           url: "http://ykm11.hatenablog.com/entry/2017/10/09/190943"
         - title: "Can-CWIC CTF 2017 の write-up - st98 の日記帳"
-          url: "https://localhost:4000/posts/2017-10-12-can-cwic-ctf-2017.html"
+          url: "https://st98.github.io/diary/posts/2017-10-12-can-cwic-ctf-2017.html"
     - name: "Kaspersky Industrial CTF Quals 2017"
       rank: 32
       participants: 227
