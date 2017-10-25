@@ -1,5 +1,19 @@
 - year: 2017
   ctfs:
+    - name: "Pwn2Win CTF 2017"
+      rank: 40
+      participants: 207
+      writeups:
+        - title: "Pwn2Win CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-10-24-pwn2win-ctf-2017.html"
+    - name: "Hack.lu CTF 2017"
+      rank: 65
+      participants: 241
+      writeups:
+        - title: "Hacklu Ctf · うさぎ小屋"
+          url: "http://kimiyuki.net/categories/hacklu-ctf/"
+        - title: "Hack.lu CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-10-25-hacklu-ctf-2017.html"
     - name: "Hack Dat Kiwi 2017"
       rank: 179
       participants: 306
@@ -80,7 +94,7 @@
           url: "http://nkhrlab.hatenablog.com/entry/2017/09/06/034202"
     - name: "SECCON 2017 x CEDEC CHALLENGE"
       rank: 1
-      participants: "?"
+      participants: 43
       writeups:
         - title: "SECCON 2017 × CEDEC CHALLENGE Harekaze // Speaker Deck"
           url: "https://speakerdeck.com/harekaze/seccon-2017-x-cedec-challenge-harekaze"
