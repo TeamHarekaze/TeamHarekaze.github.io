@@ -14,6 +14,8 @@
           url: "http://ykm11.hatenablog.com/entry/2017/11/05/232926"
         - title: "School CTF 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-11-07-school-ctf-2017.html"
+        - title: "School CTF 2017 Writeup - hiww_備忘録"
+          url: "http://hiww.hatenablog.com/entry/2017/11/09/School_CTF_2017_Writeup"
     - name: "Pwn2Win CTF 2017"
       rank: 40
       participants: 207
