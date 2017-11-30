@@ -1,5 +1,37 @@
 - year: 2017
   ctfs:
+    - name: "TUCTF 2017"
+      rank: 44
+      participants: 948
+      writeups:
+        - title: "TUCTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-11-30-tuctf-2017.html"
+    - name: "RC3 CTF 2017"
+      rank: 13
+      participants: 302
+      writeups:
+        - title: "RC3 CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-11-30-rc3-ctf-2017.html"
+    - name: "hxp CTF 2017"
+      rank: 64
+      participants: 499
+      writeups:
+        - title: "hxp CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-11-24-hxp-ctf-2017.html"
+    - name: "HCTF 2017"
+      rank: 456
+      participants: 532
+      writeups:
+        - title: "HCTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-11-16-hctf-2017.html"
+    - name: "CODE BLUE CTF 2017"
+      rank: 17
+      participants: 555
+      writeups:
+        - title: "CODEBLUE CTF [Write-up] - ぺんぎんさんのおうち"
+          url: "http://ykm11.hatenablog.com/entry/2017/11/10/213007"
+        - title: "CODE BLUE CTF 2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-11-29-code-blue-ctf-2017.html"
     - name: "HITCON CTF 2017 Quals"
       rank: 53
       participants: 1075
