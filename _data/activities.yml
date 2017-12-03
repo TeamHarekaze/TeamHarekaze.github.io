@@ -12,6 +12,8 @@
       writeups:
         - title: "RC3 CTF 2017 の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-11-30-rc3-ctf-2017.html"
+        - title: "RC3 CTF 2017 Writeup - hiww_備忘録"
+          url: "http://hiww.hatenablog.com/entry/2017/12/03/RC3_CTF_2017_Writeup"          
     - name: "hxp CTF 2017"
       rank: 64
       participants: 499
