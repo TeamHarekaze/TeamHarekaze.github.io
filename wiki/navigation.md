@@ -4,6 +4,10 @@
 
 [Home](index.md)
 [News](news.md)
-[Resources](resources.md)
+[Resources]()
+  
+ * [Top](resources.md)
+ * [Pwn](resources/pwn.md)
+
 [Tools](tools.md)
 [About](about.md)
