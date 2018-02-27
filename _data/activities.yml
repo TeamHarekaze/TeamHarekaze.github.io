@@ -1,5 +1,58 @@
-- year: 2017
+- year: 2018
   ctfs:
+    - name: "NeverLAN CTF 2018"
+      rank: 47
+      participants: 816
+    - name: "Xiomara 2018"
+      rank: 6
+      participants: 240
+    - name: "SECCON 2017 Final International competition"
+      rank: 10
+      participants: 15
+      writeups:
+        - title: "SECCON 2017 国際決勝大会に参加しました - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-02-27-seccon-2017-international-finals.html"
+    - name: "SECCON 2017 Final Japan competition"
+      rank: 5
+      participants: 24
+      writeups:
+        - title: "SECCON 2017 国内決勝大会に参加しました - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-02-23-seccon-2017-domestic-finals.html"
+    - name: "TAMUctf 18"
+      rank: 138
+      participants: 1272
+    - name: "Codegate CTF 2018 Preliminary"
+      rank: "?"
+      participants: "?"
+    - name: "SharifCTF 8"
+      rank: 203
+      participants: 682
+    - name: "AceBear Security Contest"
+      rank: 43
+      participants: 139
+    - name: "Break In CTF 2018"
+      rank: 24
+      participants: 97
+      writeups:
+        - title: "Breakin CTF 2018 [Write-up] - ぺんぎんさんのおうち"
+          url: "http://ykm11.hatenablog.com/entry/2018/01/23/065253"
+    - name: "Insomni'hack teaser 2018"
+      rank: 33
+      participants: 433
+      writeups:
+        - title: "Insomni'hack teaser 2018 [Pwn Sape 163] sapeloshop - pwnと空高く"
+          url: "http://pwn.megumi.sh/entry/2018/01/25/194810"
+        - title: "Insomni'hack teaser 2018 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-01-22-insomnihack-teaser-2018.html"
+- year: 2017
+  rank: 34
+  ctfs:
+    - name: "34C3 CTF"
+      rank: 46
+      participants: 187
+      writeups:
+        - title: "34C3 CTFに参加した - 更新日時で差をつけろ"
+          url: "http://sei0o.hateblo.jp/entry/2017/12/30/111836"
     - name: "InCTF"
       rank: 5
       participants: 156
@@ -9,7 +62,47 @@
         - title: "InCTF の write-up - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2017-12-19-inctf.html"
         - title: "InCTF2017 Writeup - hiww_備忘録"
-          url: "http://hiww.hatenablog.com/entry/2017/12/17/InCTF2017_Writeup"     
+          url: "http://hiww.hatenablog.com/entry/2017/12/17/InCTF2017_Writeup"
+    - name: "WhiteHat Grand Prix 2017"
+      rank: 72
+      participants: 169
+      writeups:
+        - title: "WhiteHat2017供養(WriteUp) - ごちうさ民の覚え書き"
+          url: "http://kataware.hatenablog.jp/entry/2017/12/20/014849"
+    - name: "0x00ctf-2017"
+      rank: 3
+      participants: 196
+      writeups:
+        - title: "ctfs/2017/0x00ctf2017 at master · megumish/ctfs"
+          url: "https://github.com/megumish/ctfs/tree/master/2017/0x00ctf2017"
+        - title: "0x00ctf-2017 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-12-18-0x00ctf-2017.html"
+    - name: "The 318br, DESEC and SucuriHC Capture The Flag (3DSCTF)"
+      rank: 27
+      participants: 435
+      writeups:
+        - title: "The 318br, DESEC and SucuriHC Capture The Flag (3DSCTF) の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-12-18-3dsctf-2017.html"
+        - title: "3DSCTF Write-up - ぺんぎんさんのおうち"
+          url: "http://ykm11.hatenablog.com/entry/2017/12/18/200814"
+    - name: "SECCON 2017 Online CTF"
+      rank: 3
+      participants: 1028
+      writeups:
+        - title: "SECON 2017 Online CTF writeup (Remote debugging of a micro computer) - /var/log/hikalium"
+          url: "http://hikalium.hatenablog.jp/entry/2017/12/10/221127"
+        - title: "Seccon · うさぎ小屋"
+          url: "http://kimiyuki.net/categories/seccon/"
+        - title: "SECCON online CTF2017-WriteUp- - ごちうさ民の覚え書き"
+          url: "http://kataware.hatenablog.jp/entry/2017/12/11/184130"
+        - title: "SECCON 2017 Online CTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-12-12-seccon-2017-online-ctf.html"
+    - name: "Takoma Park CTF"
+      rank: 9
+      participants: 484
+      writeups:
+        - title: "Takoma Park CTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2017-12-07-takoma-park-ctf.html"    
     - name: "TUCTF 2017"
       rank: 44
       participants: 948
