@@ -1,8 +1,45 @@
 - year: 2018
   ctfs:
+    - name: "VolgaCTF 2018 Quals"
+      rank: 24
+      participants: 411
+      writeups:
+        - title: "Volgactf · うさぎ小屋"
+          url: "https://kimiyuki.net/categories/volgactf/"
+    - name: "BackdoorCTF 2018"
+      rank: 67
+      participants: 123
+    - name: "b00t2root '18"
+      rank: 18
+      participants: 134
+    - name: "angstromCTF 2018"
+      rank: 88
+      participants: 1516
+    - name: "UCSB iCTF 2018"
+      rank: 41
+      participants: 266
+      writeups:
+        - title: "Ictf · うさぎ小屋"
+          url: "https://kimiyuki.net/categories/ictf/"
+    - name: "N1CTF 2018"
+      rank: 45
+      participants: 517
+      writeups:
+        - title: "N1ctf · うさぎ小屋"
+          url: "https://kimiyuki.net/categories/n1ctf/"
+        - title: "N1CTF 2018 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-03-26-n1ctf-2018.html"
+    - name: "Pragyan CTF 2018"
+      rank: 43
+      participants: 606
     - name: "NeverLAN CTF 2018"
       rank: 47
       participants: 816
+      writeups:
+        - title: "NeverLAN CTF 2018 Writeup - Unpronounceable Name"
+          url: "http://tatarhy.hatenablog.jp/entry/2018/02/28/215110"
+        - title: "NeverLAN CTF 2018 Writeup - $ :(){ :|:& };:"
+          url: "http://taiyoslime.hatenablog.com/entry/2018/03/06/200758"
     - name: "Xiomara 2018"
       rank: 6
       participants: 240
@@ -21,6 +58,11 @@
     - name: "TAMUctf 18"
       rank: 138
       participants: 1272
+      writeups:
+        - title: "TAMUctf 18 Writeup - HappyNote3966’s blog"
+          url: "http://happynote3966.hatenadiary.com/entry/2018/03/09/225042"
+        - title: "TAMUctf 18 Writeup - hiww_備忘録"
+          url: "https://hiww.hatenablog.com/entry/2018/03/19/TAMUctf_18_Writeup"
     - name: "Codegate CTF 2018 Preliminary"
       rank: "?"
       participants: "?"
