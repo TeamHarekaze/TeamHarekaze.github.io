@@ -1,5 +1,140 @@
 - year: 2018
   ctfs:
+    - name: "hxp CTF 2018"
+      rank: 44
+      participants: 297
+    - name: "Pwn2Win CTF 2018"
+      rank: 25
+      participants: 163
+    - name: "ASIS CTF Finals 2018"
+      rank: 27
+      participants: 182
+    - name: "RITSEC CTF 2018"
+      rank: 10
+      participants: 952
+    - name: "Square CTF 2018"
+      rank: 112
+      participants: 595
+    - name: "SECCON 2018 Online CTF"
+      rank: 17
+      participants: 653
+      writeups:
+        - title: "SECCON 2018 Online CTF Writeup - /var/log/hikalium"
+          url: "https://hikalium.hatenablog.jp/entry/2018/10/28/164812"
+        - title: "SECCON 2018 Online CTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-10-28-seccon-2018-online-ctf.html"
+    - name: "HITCON CTF 2018"
+      rank: 51
+      participants: 1167
+    - name: "Hack.lu CTF 2018"
+      rank: 79
+      participants: 303
+    - name: "InCTF 2018"
+      rank: 21
+      participants: 306
+    - name: "Teaser Dragon CTF 2018"
+      rank: 65
+      participants: 233
+    - name: "DefCamp CTF Qualification 2018"
+      rank: 15
+      participants: 406
+    - name: "Trend Micro CTF 2018 - Raimund Genes Cup - Online Qualifier"
+      rank: 27
+      participants: 165
+    - name: "CSAW CTF Qualification Round 2018"
+      rank: 334
+      participants: 671
+    - name: "SEC-T CTF"
+      rank: 53
+      participants: 463
+    - name: "CyberRebeatCTF"
+      rank: 1
+      participants: 154
+      writeups:
+        - title: "CyberRebeatCTF の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-09-09-cyberrebeatctf.html"
+    - name: "HackIT CTF 2018"
+      rank: 94
+      participants: 123
+    - name: "IceCTF 2018"
+      rank: 132
+      participants: 1746
+    - name: "TokyoWesterns CTF 4th 2018"
+      rank: 16
+      participants: 810
+    - name: "ICON CTF Quals"
+      rank: 23
+      participants: 32
+    - name: "SECCON 2018 x CEDEC CHALLENGE"
+      rank: 1
+      participants: "?"
+      writeups:
+        - title: "SECCON 2018 x CEDEC CHALLENGE に参加しました - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-09-01-seccon-2018-x-cedec-challenge.html"
+        - title: "SECCON 2018 x CEDEC CHALLENGE ゲームセキュリティチャレンジ - Harekaze - Speaker Deck"
+          url: "https://speakerdeck.com/st98/seccon-2018-x-cedec-challenge-gemusekiyuriteitiyarenzi-harekaze"
+        - title: "SECCON 2018 x CEDEC CHALLENGE ゲームセキュリティチャレンジ"
+          url: "https://cedil.cesa.or.jp/cedil_sessions/view/1875"
+    - name: "WhiteHat Grand Prix 2018 – Quals"
+      rank: 55
+      participants: 361
+    - name: "CODE BLUE CTF 2018 Quals"
+      rank: 10
+      participants: 542
+      writeups:
+        - title: "CODE BLUE CTF 2018 Quals の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-09-01-code-blue-ctf-2018-quals.html"
+    - name: "CTFZone 2018 Quals"
+      rank: 24
+      participants: 637
+    - name: "Meepwn CTF Quals 2018"
+      rank: 45
+      participants: 744
+    - name: "Google Capture The Flag 2018 (Quals)"
+      rank: 78
+      participants: 220
+    - name: "Security Fest CTF"
+      rank: 67
+      participants: 546
+    - name: "RCTF 2018"
+      rank: 81
+      participants: 400
+    - name: "DEF CON CTF Qualifier 2018"
+      rank: 51
+      participants: 586
+    - name: "PlaidCTF 2018"
+      rank: 197
+      participants: 986
+    - name: "ASIS CTF Quals 2018"
+      rank: 46
+      participants: 736
+    - name: "NoNameCon CTF Quals 2018"
+      rank: 109
+      participants: 130
+    - name: "*ctf 2018"
+      rank: 42
+      participants: 146
+    - name: "Blaze CTF 2018"
+      rank: 64
+      participants: 166
+    - name: "Midnight Sun CTF Quals"
+      rank: 43
+      participants: 221
+    - name: "UIUCTF 2018"
+      rank: 15
+      participants: 431
+    - name: "INS'hAck 2018"
+      rank: 47
+      participants: 553
+    - name: "0CTF/TCTF 2018 Quals"
+      rank: 29
+      participants: 700
+    - name: "Nuit du Hack CTF Quals 2018"
+      rank: 81
+      participants: 490
+    - name: "SwampCTF 2018"
+      rank: 260
+      participants: 938
     - name: "VolgaCTF 2018 Quals"
       rank: 24
       participants: 411

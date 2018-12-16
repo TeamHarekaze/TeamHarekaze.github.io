@@ -25,7 +25,7 @@ title: Activities
     <ul>
       {% for ctf in year.ctfs %}
       <li>
-        {{ ctf.name }} ({% if ctf.rank == 1 %}<i class="fa fa-trophy" aria-hidden="true"></i> {% endif %}{{ ctf.rank }} out of {{ ctf.participants }})
+        {{ ctf.name }} ({% if ctf.rank == 1 %}<i class="fa fa-trophy" aria-hidden="true"></i> {% endif %}{{ ctf.rank }} / {{ ctf.participants }})
         {% if ctf.writeups and ctf.writeups.size > 0 %}
         <ul>
           {% for writeup in ctf.writeups %}
