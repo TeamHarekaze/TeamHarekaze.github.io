@@ -53,8 +53,9 @@ layout: default
     <p>We frequently participate in CTFs.</p>
     <p>Check out our latest results on <a href="https://ctftime.org/team/29688">our CTFtime page</a>.</p>
     <ul class="list-group">
-      <li class="list-group-item"><a href="activities.html#2017">2017</a></li>
-      <li class="list-group-item"><a href="activities.html#2016">2016</a></li>
+      {% for year in site.data.activities %}
+      <li class="list-group-item"><a href="activities.html#{{ year.year }}">{{ year.year }}</a></li>
+      {% endfor %}
     </ul>
   </div>
 </section>
