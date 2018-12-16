@@ -18,6 +18,8 @@
     - name: "SECCON 2018 Online CTF"
       rank: 17
       participants: 653
+      tags:
+        - qualified
       writeups:
         - title: "SECCON 2018 Online CTF Writeup - /var/log/hikalium"
           url: "https://hikalium.hatenablog.jp/entry/2018/10/28/164812"
@@ -68,6 +70,8 @@
     - name: "SECCON 2018 x CEDEC CHALLENGE"
       rank: 1
       participants: "?"
+      tags:
+        - qualified
       writeups:
         - title: "SECCON 2018 x CEDEC CHALLENGE に参加しました - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2018-09-01-seccon-2018-x-cedec-challenge.html"
@@ -181,12 +185,16 @@
     - name: "SECCON 2017 Final International competition"
       rank: 10
       participants: 15
+      tags:
+        - finals
       writeups:
         - title: "SECCON 2017 国際決勝大会に参加しました - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2018-02-27-seccon-2017-international-finals.html"
     - name: "SECCON 2017 Final Japan competition"
       rank: 5
       participants: 24
+      tags:
+        - finals
       writeups:
         - title: "SECCON 2017 国内決勝大会に参加しました - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2018-02-23-seccon-2017-domestic-finals.html"
@@ -265,6 +273,8 @@
     - name: "SECCON 2017 Online CTF"
       rank: 3
       participants: 1028
+      tags:
+        - qualified
       writeups:
         - title: "SECON 2017 Online CTF writeup (Remote debugging of a micro computer) - /var/log/hikalium"
           url: "http://hikalium.hatenablog.jp/entry/2017/12/10/221127"
@@ -425,6 +435,8 @@
     - name: "SECCON 2017 x CEDEC CHALLENGE"
       rank: 1
       participants: 43
+      tags:
+        - qualified
       writeups:
         - title: "SECCON 2017 × CEDEC CHALLENGE Harekaze // Speaker Deck"
           url: "https://speakerdeck.com/harekaze/seccon-2017-x-cedec-challenge-harekaze"
@@ -769,7 +781,8 @@
     - name: "SECCON 2016 Final competition"
       rank: 24
       participants: 24
-      writeups:
+      tags:
+        - finals
     - name: "Insomni'hack teaser 2017"
       rank: 68
       participants: 339

@@ -25,6 +25,11 @@ title: Activities
     <ul>
       {% for ctf in year.ctfs %}
       <li>
+        {% if ctf.tags %}
+          {% for tag in ctf.tags %}
+          <span class="badge badge-info">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
         {{ ctf.name }} ({% if ctf.rank == 1 %}<i class="fa fa-trophy" aria-hidden="true"></i> {% endif %}{{ ctf.rank }} / {{ ctf.participants }})
         {% if ctf.writeups and ctf.writeups.size > 0 %}
         <ul>
