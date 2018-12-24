@@ -1,5 +1,24 @@
 - year: 2018
   ctfs:
+    - name: "SECCON 2018 Final Japan competition"
+      rank: 2
+      participants: 15
+      tags:
+        - finals
+        - Bluemermaid
+      writeups:
+        - title: "SECCON CTF 2018 ( DOMESTIC )にチームBluemermaidで出て2位だった話 - /var/log/hikalium"
+          url: "https://hikalium.hatenablog.jp/entry/2018/12/24/002411"
+    - name: "SECCON 2018 Final Japan competition"
+      rank: 11
+      participants: 15
+      tags:
+        - finals
+      writeups:
+        - title: "SECCON 2018 参加記 (イベント + CTF) - ak1t0’s diary"
+          url: "https://ak1t0.hatenablog.com/entry/2018/12/24/133723"
+        - title: "SECCON 2018 国内決勝大会に参加しました - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-12-24-seccon-2018-domestic-finals.html"
     - name: "hxp CTF 2018"
       rank: 44
       participants: 297
@@ -20,6 +39,7 @@
       participants: 653
       tags:
         - qualified
+        - Bluemermaid
       writeups:
         - title: "SECCON 2018 Online CTF Writeup - /var/log/hikalium"
           url: "https://hikalium.hatenablog.jp/entry/2018/10/28/164812"
@@ -187,6 +207,7 @@
       participants: 15
       tags:
         - finals
+        - Bluemermaid
       writeups:
         - title: "SECCON 2017 国際決勝大会に参加しました - st98 の日記帳"
           url: "https://st98.github.io/diary/posts/2018-02-27-seccon-2017-international-finals.html"
@@ -275,6 +296,7 @@
       participants: 1028
       tags:
         - qualified
+        - Bluemermaid
       writeups:
         - title: "SECON 2017 Online CTF writeup (Remote debugging of a micro computer) - /var/log/hikalium"
           url: "http://hikalium.hatenablog.jp/entry/2017/12/10/221127"
