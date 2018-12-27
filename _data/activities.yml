@@ -84,6 +84,9 @@
     - name: "TokyoWesterns CTF 4th 2018"
       rank: 16
       participants: 810
+      writeups:
+        - title: "TokyoWesterns CTF 4th 2018 の write-up - st98 の日記帳"
+          url: "https://st98.github.io/diary/posts/2018-12-28-tokyo-westerns-ctf-4th-2018.html"
     - name: "ICON CTF Quals"
       rank: 23
       participants: 32
